@@ -11,9 +11,6 @@ from langchain.document_loaders import PyPDFLoader
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Load environment variables from a .env file if present
-# from dotenv import load_dotenv
-# load_dotenv()
 
 # Get environment variables
 azure_openai_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
